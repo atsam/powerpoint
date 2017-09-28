@@ -1,0 +1,104 @@
+header{
+  background:linear-gradient( 100deg ,black,grey );
+  border-radius: 0px 0px 50% 50%;
+}
+header h1{
+  padding: 20px;
+  font-size: 70px!important;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
+.header-first{
+  left: 13rem;
+  top: -15px;
+  position: absolute;
+
+}
+.second{
+  width:45%;
+}
+.images{
+  display:flex;
+  align-items: center;
+}
+.explanation{
+  text-align: center;
+  width:60%;
+  margin: 70px auto;
+}
+.explanation h3{
+  font-weight: bold;
+  text-shadow: 0px 0px 0px grey;
+}
+.button1, .button2{
+  margin-top: 35px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+button{
+  font-size:25px!important;
+  color:lightgrey;
+  padding: 10px 40px;
+  background:linear-gradient( 100deg ,black,grey );
+}
+.download{
+  font-size:25px!important;
+  color:lightgrey;
+  padding: 10px 40px;
+  background:linear-gradient( 100deg ,black,grey );
+}
+button:hover{
+  text-shadow:1px 1px 1px red;
+}
+.contact{
+
+  margin:auto;
+  background: black;
+  color:white;
+  width:40%;
+  text-align: center;
+  padding: 40px;
+  margin-top:40px;
+  margin-bottom: 30px;
+}
+.part1{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.part1 a{
+  color:white;
+}
+.part2{
+  margin-top: 25px;
+}
+.part2 div {
+  display:flex;
+  justify-content: space-around;
+  margin-top :15px;
+}
+.part2 div a{
+  color:white;
+  text-shadow:  1px 1px 4px grey;
+}
+.images{
+  display:flex;
+  justify-content: center;
+}
+img{
+  /*border: 1px solid black;*/
+  width: 40%;
+}
+.first{
+  width: 60%;
+}
+
+footer{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 20px;
+}
